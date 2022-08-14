@@ -4,9 +4,9 @@ const Post = (props) => {
     return (
         <div className={style.item}>
             <img src="https://i.vimeocdn.com/portrait/18250331_640x640" alt="AVATAR"/>
-            {props.message}
+            {props.postText}
             <div>
-                <span>Like</span>
+                <span>Like: {props.likes}</span>
             </div>
         </div>
     )
